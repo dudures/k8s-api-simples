@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: api-simples
+  labels:
+    app: api-simples
+spec:
+  replicas: 5
+  selector:
+    matchLabels:
+      app: api-simples
+  template:
+    metadata:
+      labels:
+        app: api-simples
+    spec:
+      containers:
+      - name: api-simples
+        image: dudures/api-simples:1.0.0
+        ports:
+        - containerPort: 3000

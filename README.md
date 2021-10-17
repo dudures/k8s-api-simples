@@ -8,3 +8,9 @@ $ kubectl apply -f simple-pod.yml
 $ kubectl apply -f simple-deployment.yml
 $ kubectl apply -f simple-service.yml
 $ kubectl apply -f simple-ingress.yml
+
+
+Comandos importante:
+
+
+# kubectl api-resources 
