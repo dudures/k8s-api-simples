@@ -5,12 +5,14 @@ Exemplos básicos de configuração dos conceitos Pod, Deployment e Service do K
 Para aplicar as configurações em um cluster Kubernetes, execute:
 
 $ kubectl apply -f simple-pod.yml
+
 $ kubectl apply -f simple-deployment.yml
+
 $ kubectl apply -f simple-service.yml
+
 $ kubectl apply -f simple-ingress.yml
 
 
 Comandos importante:
-
 
 # kubectl api-resources 
